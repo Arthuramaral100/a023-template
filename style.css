@@ -2,3 +2,50 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    padding: 20px;
+    display: flex;
+    border: solid black 1px;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: pink;
+}
+
+div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+    background-color: orange;
+}
+
+.menus{
+    display: flex;
+}
+article{
+    border: solid black 1px
+}
+
+.cresce{
+    flex: 2
+}
+.nao-cresce{
+    flex: 1
+}
+
+.plantinha{
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    border: solid black 1px;
+    height: 8vh;
+    background-color: blueviolet;
+}
